@@ -7,7 +7,7 @@
     <desc>Canopy</desc>
     <binding>
      <command>nasal</command>
-     <script>pa18.doorsystem.crewexport();</script>
+     <script>pa32.doorsystem.crewexport();</script>
     </binding>
   </key>
 
