@@ -46,15 +46,20 @@
     <object-name>cache</object-name>
     <object-name>echappe</object-name>
     <object-name>trousprof</object-name>
+    <object-name>air</object-name>
+    <object-name>porteD</object-name>
 
     <!-- Objets transparents -->
     <object-name>vitres</object-name>
+    <object-name>vitreD</object-name>
     <object-name>propblur</object-name>
     <object-name>propdisc</object-name>
   </animation>
 
   <animation>
     <type>noshadow</type>
+    <object-name>vitres</object-name>
+    <object-name>vitreD</object-name>
     <object-name>propdisc</object-name>
     <object-name>propblur</object-name>
   </animation>
@@ -64,6 +69,7 @@
     <shader>chrome</shader>
     <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
     <object-name>vitres</object-name>
+    <object-name>vitreD</object-name>
   </animation>
 
   <animation>
@@ -99,6 +105,8 @@
     <object-name>cache</object-name>
     <object-name>echappe</object-name>
     <object-name>trousprof</object-name>
+    <object-name>air</object-name>
+    <object-name>porteD</object-name>
 
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
@@ -244,7 +252,7 @@
     <center>
       <x-m> -3.890 </x-m>
       <y-m>  0.000 </y-m>
-      <z-m> -0.437 </z-m>
+      <z-m> -0.427 </z-m>
     </center>
     <axis>
       <x> -1 </x>
@@ -320,6 +328,7 @@
     <name>AllPronfondeur</name>
     <object-name>ailes2</object-name>
     <object-name>profondeur</object-name>
+    <object-name>trousprof</object-name>
   </animation>
 
   <animation>
@@ -434,6 +443,30 @@
       <x>  0 </x>
       <y> -1 </y>
       <z>  0 </z>
+    </axis>
+  </animation>
+
+  <!-- Porte -->
+  <animation>
+    <name>PorteGauche</name>
+    <object-name>porteD</object-name>
+    <object-name>vitreD</object-name>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>PorteGauche</object-name>
+    <property>instrumentation/doors/crew/position-norm</property>
+    <factor> 60 </factor>
+    <center>
+      <x-m> -1.672 </x-m>
+      <y-m>  0.654 </y-m>
+      <z-m> -0.424 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
     </axis>
   </animation>
 
