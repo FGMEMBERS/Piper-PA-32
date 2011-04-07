@@ -11,6 +11,26 @@
     <!-- Objets transparents -->
   </animation>
 
+  <!-- Pedestel -->
+  <model>
+    <path>Aircraft/Piper-PA-32/Models/Interior/Panel/pedestal/pedestal.xml</path>
+    <offsets>
+      <x-m>  0.296 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.230 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Switch Landing Light -->
+  <model>
+    <path>Aircraft/Piper-PA-32/Models/Interior/Panel/Instruments/divers/landing-lights.xml</path>
+    <offsets>
+      <x-m>  0.188 </x-m>
+      <y-m> -0.334 </y-m>
+      <z-m>  0.098 </z-m>
+    </offsets>
+  </model>
+
   <!-- Asi -->
   <model>
     <path>Aircraft/Piper-PA-32/Models/Interior/Panel/Instruments/ASI/ASI.xml</path>

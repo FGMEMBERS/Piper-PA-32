@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- Piper PA 32 - 2010 Emmanuel BARANGER
-   
-     Piper PA 32
+                   updated 2011
 
      sources          : http://en.wikipedia.org/wiki/Piper_PA-32
 
@@ -33,12 +32,12 @@
 
   <cockpit x="1.355" y="0.323" z="0.080"/>
 
-  <fuselage ax="3.785" ay="0" az="-0.463" bx="-3.717" by="0" bz="-0.131" width="1.470" taper="0.5" midpoint="0.3"/>
+  <fuselage ax="3.785" ay="0" az="-0.463" bx="-3.962" by="0" bz="-0.152" width="1.287" taper="0.4" midpoint="0.3"/>
 
-  <wing x="0.819" y="0.339" z="-0.771" 
+  <wing x="0.870" y="0.339" z="-0.771" 
         chord="1.530" 
         length="4.649" 
-        taper="1"
+        taper="0.7"
         dihedral="8"
         camber="0.01">
         <stall aoa="24" width="6.0" peak="1.5"/>
@@ -75,7 +74,7 @@
          taper="0.32"
          sweep="28">
          <stall aoa="14" width="3" peak="1.5"/>
-         <flap0 start="0" end="1" lift="1.75" drag="1.35"/>
+         <flap0 start="0.02" end="0.9" lift="1.75" drag="1.35"/>
 
          <control-input axis="/controls/flight/rudder" control="FLAP0" invert="true"/>
          <control-input axis="/controls/flight/rudder-trim" control="FLAP0" invert="true"/>
@@ -127,7 +126,7 @@
   </gear>
 
   <!-- Left wheel -->
-  <gear x="0.765" y="-1.760" z="-1.509"
+  <gear x="0.765" y="-1.566" z="-1.509"
         compression="0.2" 
         spring="1.8" 
         damp="0.03" 
@@ -140,7 +139,7 @@
   </gear>
 
   <!-- Right wheel -->
-  <gear x="0.765" y="1.760" z="-1.509"
+  <gear x="0.765" y="1.566" z="-1.509"
         compression="0.2" 
         spring="1.8"
         damp="0.03" 
@@ -158,3 +157,4 @@
   <ballast x="2" y="0" z="-2" mass="250"/>
 
 </airplane>
+
