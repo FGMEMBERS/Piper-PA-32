@@ -4,7 +4,7 @@
 <PropertyList include="pa32-yasim-cnf.xml">
 
   <sim>
-    <description>Piper PA 32</description>
+    <description>Piper PA 32 (YASim)</description>
     <author>Emmanuel BARANGER (3D/FDM)</author>
   </sim>
 

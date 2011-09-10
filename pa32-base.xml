@@ -6,7 +6,13 @@
 
     <author>BARANGER Emmanuel (3D/FDM)</author>
     <aircraft-version>0.2</aircraft-version>
-    <status>Alpha</status>
+    <status>early production</status>
+    <rating>
+      <FDM type="int">     3 </FDM>
+      <systems type="int"> 2 </systems>
+      <cockpit type="int"> 3 </cockpit>
+      <model type="int">   4 </model>
+    </rating>
 
     <fuel-fraction>1.0</fuel-fraction>
 
