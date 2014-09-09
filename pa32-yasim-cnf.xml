@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList include="pa32-base.xml">
+
+  <sim>
+
+    <description>Piper PA 32 (YASim)</description>
+    <flight-model archive="y">yasim</flight-model>
+    <aero archive="y">pa32-yasim</aero>
+
+  </sim>
+
+</PropertyList>
+

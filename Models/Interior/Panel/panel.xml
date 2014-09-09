@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- Pedestel -->
+  <model>
+    <path>Aircraft/Piper-PA-32/Models/Interior/Panel/pedestal/pedestal.xml</path>
+    <offsets>
+      <x-m>  0.296 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.230 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Switch Landing Light -->
+  <model>
+    <path>Aircraft/Piper-PA-32/Models/Interior/Panel/Instruments/divers/landing-lights.xml</path>
+    <offsets>
+      <x-m>  0.188 </x-m>
+      <y-m> -0.334 </y-m>
+      <z-m>  0.098 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Asi -->
+  <model>
+    <path>Aircraft/Piper-PA-32/Models/Interior/Panel/Instruments/ASI/ASI.xml</path>
+    <offsets>
+      <x-m>  0.187 </x-m>
+      <y-m> -0.200 </y-m>
+      <z-m>  0.050 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Piper-PA-32/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>  0.186 </x-m>
+      <y-m> -0.290 </y-m>
+      <z-m>  0.050 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Alt -->
+  <model>
+    <path>Aircraft/Piper-PA-32/Models/Interior/Panel/Instruments/Altimeter/Altimeter.xml</path>
+    <offsets>
+      <x-m>  0.187 </x-m>
+      <y-m> -0.380 </y-m>
+      <z-m>  0.050 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Turn -->
+  <model>
+    <path>Aircraft/Piper-PA-32/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m>  0.187 </x-m>
+      <y-m> -0.380 </y-m>
+      <z-m> -0.050 </z-m>
+    </offsets>
+  </model>
+
+  <!-- hdg -->
+  <model>
+    <path>Aircraft/Piper-PA-32/Models/Interior/Panel/Instruments/hdg/hdg.xml</path>
+    <offsets>
+      <x-m>  0.187 </x-m>
+      <y-m> -0.290 </y-m>
+      <z-m> -0.050 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Vsi -->
+  <model>
+    <path>Aircraft/Piper-PA-32/Models/Interior/Panel/Instruments/VSI/VSI.xml</path>
+    <offsets>
+      <x-m>  0.187 </x-m>
+      <y-m> -0.200 </y-m>
+      <z-m> -0.050 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>

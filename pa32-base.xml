@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+    <aircraft-version>0.2</aircraft-version>
+    <status>early production</status>
+    <rating>
+      <FDM type="int">     3 </FDM>
+      <systems type="int"> 2 </systems>
+      <cockpit type="int"> 3 </cockpit>
+      <model type="int">   4 </model>
+    </rating>
+
+    <fuel-fraction>1.0</fuel-fraction>
+
+    <startup>
+      <splash-texture>Aircraft/Piper-PA-32/pa32-splash.png</splash-texture>
+    </startup>
+
+    <sound>
+      <path archive="y">Aircraft/Piper-PA-32/Sounds/pa32-sound.xml</path>
+    </sound>
+
+    <model>
+      <path archive="y">Aircraft/Piper-PA-32/Models/pa32.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+    <flaps>
+        <setting> 0.00 </setting> <!-- Cruise -->
+        <setting> 0.50 </setting> <!-- Half -->
+        <setting> 1.00 </setting> <!-- Full -->
+    </flaps>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic> 
+        <int type="int">  0 </int>  <!-- 0 immat -->
+        <int type="int">  0 </int>  <!-- 1 immat -->
+        <int type="int">  0 </int>  <!-- 2 immat -->
+        <int type="int">  0 </int>  <!-- 3 immat -->
+        <int type="int">  0 </int>  <!-- 4 immat -->
+        <int type="int">  0 </int>  <!-- 5 immat -->
+        <int type="bool"> 0 </int>  <!-- 6 smoke -->
+        <int type="int">  0 </int>  <!-- 7 color -->
+        <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
+        <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
+      </generic>
+    </multiplay>
+
+    <help>
+      <title>Piper PA 32</title>
+      <line>______________________________________________</line>
+    </help>
+
+    <pa32>
+      <state type="int"> 0 </state>
+      <airspeed-kmh type="float"> 0 </airspeed-kmh>
+      <engine-rpm type="float"> 0 </engine-rpm>
+      <engine-volume-low-rpm type="float"> 0 </engine-volume-low-rpm>
+      <engine-volume-high-rpm type="float"> 0 </engine-volume-high-rpm>
+    </pa32>
+
+    <weight n="0">
+      <name>Pilot</name>
+      <weight-lb>180</weight-lb>
+      <max-lb>240</max-lb>
+      <min-lb>140</min-lb>
+    </weight>
+
+    <weight n="1">
+      <name>Pax</name>
+      <weight-lb>0</weight-lb>
+      <max-lb>240</max-lb>
+      <min-lb>0</min-lb>
+    </weight>
+
+    <weight n="2">
+      <name>Baggage</name>
+      <weight-lb>0</weight-lb>
+      <max-lb>20</max-lb>
+      <min-lb>0</min-lb>
+    </weight>
+
+    <menubar include="Dialogs/pa32-menu.xml"/>
+
+  </sim>
+
+  <input>
+    <keyboard include="Nasal/pa32-keyboard.xml"/>
+  </input>
+
+  <engines>
+    <engine>
+      <rpm type="float"> 0 </rpm>
+    </engine>
+  </engines>
+
+  <nasal>
+    <doors>
+      <file>Aircraft/Piper-PA-32/Nasal/doors.nas</file>
+    </doors>
+    <pa32>
+      <file>Aircraft/Piper-PA-32/Nasal/liveries.nas</file>
+      <file>Aircraft/Piper-PA-32/Nasal/light.nas</file>
+    </pa32>
+  </nasal>
+
+</PropertyList>
+
