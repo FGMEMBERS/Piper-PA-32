@@ -6,6 +6,22 @@
   <sim>
     <description>Piper PA 32 (YASim)</description>
     <author>Emmanuel BARANGER (3D/FDM)</author>
+
+    <tags>
+      <tag>ga</tag>
+      <tag>piper</tag>
+      <tag>1960s</tag>
+      <tag>1970s</tag>
+      <tag>1980s</tag>
+      <tag>1990s</tag>
+      <tag>2000s</tag>
+      <tag>2010s</tag>
+      <tag>fixed-gear</tag>
+      <tag>piston</tag>
+      <tag>propeller</tag>
+      <tag>single-engine</tag>
+    </tags>
+
   </sim>
 
 </PropertyList>
