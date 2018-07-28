@@ -39,6 +39,7 @@
 
     <multiplay>
       <chat_display>1</chat_display>
+      <fallback-model-index type="int">11</fallback-model-index>
       <generic> 
         <int type="int">  0 </int>  <!-- 0 immat -->
         <int type="int">  0 </int>  <!-- 1 immat -->
