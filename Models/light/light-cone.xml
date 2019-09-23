@@ -3,10 +3,10 @@
 <PropertyList>
 
   <path>light-cone.ac</path>
-
+  <nopreview/>
   <effect>
     <inherits-from>Effects/light-cone</inherits-from>
     <object-name>Cone</object-name>
   </effect>
   
- </PropertyList>
+</PropertyList>
